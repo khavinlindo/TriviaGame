@@ -2,12 +2,6 @@
     box-sizing: border-box;
 }
 
-/*
-body {
-    background: url('../images/basketball-court.jpg');
-    height: 100vh;
-}*/
-
 
 .background {
     background: url('../images/basketball-court.jpg');
@@ -16,42 +10,20 @@ body {
 }
 
 
-/*
-.background {
-    display: block;
-    position: relative;
-    
-}
 
- /*For adding opacity to background image
-.background::after {
-    overflow: hidden;
-    content: "";
-    background: url('../images/basketball-court.jpg');
-    opacity: 0.9;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-    height: 100vh;
-}
-*/
-
-
-#trivia {
+#main {
     text-align: center;
-    width: 70%;
-    height: 700px;
+    width: 60%;
+    height: 500px;
     background-color: rgba(156, 238, 156, 0.9);
     opacity: 1.0;
     margin: 0 auto;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-    margin-top: 100px;
+    margin-top: 60px;
+    overflow:auto;
 }
 
-.header {
+#head {
     font-size: 70px;
     color: #7A1F4D;
     margin: 0 auto;
@@ -64,14 +36,13 @@ body {
     height: 100px;
     margin-top: 50px;
     font-size: 40px;
+    margin-bottom: 10px;
 }
 
-.timer {
-    margin-bottom: 30px;
-}
 
-.questions, .select {
+#sub-main {
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
+   overflow: auto;
 }
 
