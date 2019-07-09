@@ -103,6 +103,7 @@ $(document).on("click", "#end",  function() {
 
     start: function() {
         
+        $("#main").css({"height":"1100px"});
         //var subMain = $("#sub-main");
         
         subMain.empty();
@@ -208,7 +209,8 @@ $(document).on("click", "#end",  function() {
      },
 
      result: function() {
-         clearInterval(timer);
+        $("#main").css({"height":"500px"}); 
+        clearInterval(timer);
          
          subMain.empty();
          

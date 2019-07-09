@@ -20,7 +20,7 @@
     margin: 0 auto;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     margin-top: 60px;
-    overflow:auto;
+
 }
 
 #head {
@@ -43,6 +43,5 @@
 #sub-main {
    font-family: Arial, Helvetica, sans-serif;
    font-weight: bold;
-   overflow: auto;
 }
 
